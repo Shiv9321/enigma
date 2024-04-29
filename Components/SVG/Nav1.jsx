@@ -1,10 +1,10 @@
 import React from "react";
 
-const Str1 = () => {
+const Nav1 = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="w-5 h-5 mx-auto"
+      className="h-6 w-6"
       viewBox="0 0 20 20"
       fill="currentColor"
     >
@@ -17,4 +17,4 @@ const Str1 = () => {
   );
 };
 
-export default Str1;
+export default Nav1;

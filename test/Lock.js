@@ -1,7 +1,11 @@
 const {
   time,
   loadFixture,
+<<<<<<< HEAD
 } = require("@nomicfoundation/hardhat-toolbox/network-helpers");
+=======
+} = require("@nomicfoundation/hardhat-network-helpers");
+>>>>>>> origin/main
 const { anyValue } = require("@nomicfoundation/hardhat-chai-matchers/withArgs");
 const { expect } = require("chai");
 
@@ -43,7 +47,11 @@ describe("Lock", function () {
         deployOneYearLockFixture
       );
 
+<<<<<<< HEAD
       expect(await ethers.provider.getBalance(lock.target)).to.equal(
+=======
+      expect(await ethers.provider.getBalance(lock.address)).to.equal(
+>>>>>>> origin/main
         lockedAmount
       );
     });
