@@ -12,3 +12,11 @@
 3) -------------------- important-------------
 
 check if else for every input/field/variable for debugging
+
+
+4) git merging error -
+
+resolving started by - git init,
+ git status
+ git branch --set-upstream-to=origin/main main
+ git push origin main
