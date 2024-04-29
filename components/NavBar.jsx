@@ -1,13 +1,3 @@
-// import React from 'react'
-
-// const NavBar = () => {
-//   return (
-//     <div>NavBar</div>
-//   )
-// }
-
-// export default NavBar;
-
 import {useEffect, useState, useContext} from "react";
 
 import { TrackingContext } from "@/context/Tracking";
